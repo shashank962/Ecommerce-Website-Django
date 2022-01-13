@@ -1,1 +1,1 @@
-waitress-serve --listen=*:8000 HexaEdge.wsgi:application
+web: waitress-serve --port=$PORT HexaEdge.wsgi:application
